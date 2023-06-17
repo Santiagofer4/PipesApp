@@ -36,8 +36,10 @@
       </ol>
       <hr>
       <ol>
-        <li> fecha | date:'long':'GMT-6' </li>
-        <li> fecha | date:'long':'GMT-4' </li>
+        <li> fecha | date:'long': 'GMT-6' </li>
+        <li> fecha | date:'long': 'GMT-4' </li>
+        <li> fecha | date:'long': '' : 'es-AR'</li>
+        <li> fecha | date:'long': '' : 'fr-CA'</li>
       </ol>
 
     </p-card>
@@ -57,6 +59,8 @@
       <ol>
         <li> {{ customDate | date:'long':'GMT-6'}} </li>
         <li> {{ customDate | date:'long':'GMT-4'}} </li>
+        <li> {{ customDate | date:'long':'':'es-AR' }} </li>
+        <li> {{ customDate | date:'long':'':'fr-CA' }} </li>
       </ol>
 
     </p-card>
