@@ -28,7 +28,7 @@ registerLocaleData(localeFrCA)
   ],
   providers: [
     {
-      provide: LOCALE_ID, useValue: localeEsAR
+      provide: LOCALE_ID, useValue: 'es-AR'
     }
   ],
   bootstrap: [AppComponent]
